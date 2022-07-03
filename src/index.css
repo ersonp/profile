@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'DMSerifDisplay';
+  src: local('DMSerifDisplay'), url(./fonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf) format('truetype');
+}
