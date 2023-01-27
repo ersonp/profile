@@ -3,7 +3,7 @@ import Name from './Name';
 
 function App() {
   return (
-    <div className="leading-normal tracking-normal h-screen text-black dark:text-white bg-white dark:bg-black border-8 border-black dark:border-white">
+    <div className="leading-normal tracking-normal h-screen text-secondary-color dark:text-primary-color bg-primary-color dark:bg-secondary-color border-8 border-secondary-color dark:border-primary-color">
       <Name />
     </div>
   );

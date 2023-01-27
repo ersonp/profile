@@ -6,3 +6,8 @@
   font-family: 'DMSerifDisplay';
   src: local('DMSerifDisplay'), url(./fonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf) format('truetype');
 }
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+}
