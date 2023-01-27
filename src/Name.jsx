@@ -1,14 +1,10 @@
 import React from 'react';
 import './Name.css';
-import Switcher from './Switcher';
 
 export default function Name() {
   return (
-    <div className="container w-full md:max-w-4xl mx-auto pt-20 pb-20 pl-4 pr-4 max-w-md overflow-hidden">
+    <div className="container w-full md:max-w-4xl mx-auto pb-20 pl-4 pr-4 max-w-md overflow-hidden">
       <div className="md:shrink-0">
-        <h1>
-          <Switcher />
-        </h1>
         <h1 className="break-normal pt-6 pb-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl title-font">
           Hi there, I&apos;m
           <br />
@@ -21,7 +17,7 @@ export default function Name() {
           <i className="font-serif"> noun </i>
         </div>
         <div className="py-4">
-          <div className="w-full border-t border-black" />
+          <div className="w-full border-t border-black dark:border-white" />
         </div>
         Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of
         classical Latin literature from 45 BC, making it over 2000 years old.Richard McClintock,
