@@ -3,9 +3,9 @@ import Name from './Name';
 
 function App() {
   return (
-    <body className="leading-normal tracking-normal">
+    <div className="leading-normal tracking-normal h-screen bg-white border-8 border-blue">
       <Name />
-    </body>
+    </div>
   );
 }
 
