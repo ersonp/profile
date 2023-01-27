@@ -5,7 +5,7 @@ export default function Name() {
   return (
     <div className="container w-full md:max-w-4xl mx-auto pb-20 pl-4 pr-4 max-w-md overflow-hidden">
       <div className="md:shrink-0">
-        <h1 className="break-normal pt-6 pb-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl title-font">
+        <h1 className="break-normal pt-6 pb-2 text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl title-font">
           Hi there, I&apos;m
           <br />
           <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl pt-6 pb-2">
