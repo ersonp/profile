@@ -3,10 +3,10 @@ import './Name.css';
 
 export default function Name() {
   return (
-    <div className="container w-full md:max-w-4xl mx-auto pb-20 pl-4 pr-4 max-w-md overflow-hidden">
+    <div className="container w-full md:max-w-7xl mx-auto pb-16 pl-4 pr-4 max-w-md overflow-hidden pt-16">
       <div className="md:shrink-0">
         <h1 className="break-normal pt-6 pb-2 text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl title-font">
-          Hi there, I&apos;m
+          Hello there, I&apos;m
           <br />
           <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl pt-6 pb-2">
             Erson Pereira
@@ -19,22 +19,40 @@ export default function Name() {
         <div className="py-4">
           <div className="w-full border-t border-black dark:border-white" />
         </div>
-        Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of
-        classical Latin literature from 45 BC, making it over 2000 years old.Richard McClintock,
-        a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more
-        obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites
-        of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-        from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum &quot;
-        (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-        This book is a treatise on the theory of ethics, very popular during the Renaissance.
-        The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;,
-        comes from a line in section 1.10.32.
+        I am a backend developer who loves a challenge. I prefer working on new and upcoming
+        technologies that tickle my fancy. I like to keep my code verbose and well-documented
+        as I believe in writing code that humans can understand.
+        I write microservices and P2P nodes in Golang while using Postgres and Redis as databases.
         <p>
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
-          those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et
-          Malorum &quot; by Cicero are also reproduced in their exact original form,
-          accompanied by English versions from the 1914 translation by H.Rackham.
+          I am handy with a RPi and i know my way around Docker, Kubernetes, Go releaser and CI/CD
+          platforms like Travis CI and Github Actions.
         </p>
+        <br />
+        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
+          More about me
+        </h1>
+        <li>I am a avid gamer</li>
+        <li>I am kind of into custom mechanical keyboards</li>
+        <li>I built my own computer</li>
+        <li>Preferred OS is linux</li>
+        <li>Learning Node with Typescript and Tailwind just for fun</li>
+        <li>Interested in learning Rust after Node</li>
+        <li>And i like pretty things</li>
+
+        <div className="py-4 pt-36">
+          <div className="w-24 border-t border-black dark:border-white" />
+        </div>
+        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
+          Connect with me
+        </h1>
+        <br />
+        Email:&nbsp;ersonpereiracr7@gmail.com
+        <br />
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
+          &nbsp;ersonpereira
+        </a>
+
       </div>
     </div>
   );
