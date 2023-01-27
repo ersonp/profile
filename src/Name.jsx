@@ -31,15 +31,14 @@ export default function Name() {
         <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
           More about me
         </h1>
-        <li>I am a avid gamer</li>
+        <li>I am an avid gamer</li>
         <li>I am kind of into custom mechanical keyboards</li>
         <li>I built my own computer</li>
         <li>Preferred OS is linux</li>
         <li>Learning Node with Typescript and Tailwind just for fun</li>
         <li>Interested in learning Rust after Node</li>
         <li>And i like pretty things</li>
-
-        <div className="py-4 pt-36">
+        <div className="py-4 pt-32">
           <div className="w-24 border-t border-black dark:border-white" />
         </div>
         <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
