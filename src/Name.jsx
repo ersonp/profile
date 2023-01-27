@@ -1,10 +1,12 @@
 import React from 'react';
 import './Name.css';
+import Switcher from './Switcher';
 
 export default function Name() {
   return (
     <div className="container w-full md:max-w-4xl mx-auto pt-20 pl-4 pr-4 max-w-md overflow-hidden">
       <div className="md:shrink-0">
+        <div><Switcher /></div>
         <h1 className="break-normal pt-6 pb-2 text-4xl md:text-5xl title-font">
           Erson Pereira
         </h1>
