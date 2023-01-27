@@ -9,8 +9,13 @@ export default function Name() {
         <h1>
           <Switcher />
         </h1>
-        <h1 className="break-normal pt-6 pb-2 text-4xl md:text-5xl title-font">
-          Erson Pereira
+        <h1 className="break-normal pt-6 pb-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl title-font">
+          Hi there, I&apos;m
+          {' '}
+          <br />
+          <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl pt-6 pb-2">
+            Erson Pereira
+          </div>
         </h1>
         <div className="font-sans">
           &nbsp;[air - sun pa - re - ra] &nbsp;&nbsp;
