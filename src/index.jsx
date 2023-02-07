@@ -7,12 +7,14 @@ import {
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import ErrorPage from './error-page';
 import './index.css';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/about',
