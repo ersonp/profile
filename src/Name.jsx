@@ -17,7 +17,7 @@ export default function Name() {
           <i className="font-serif"> noun </i>
         </div>
         <div className="py-4">
-          <div className="w-full border-t border-black dark:border-white" />
+          <div className="w-full border-t border-secondary-color dark:border-primary-color" />
         </div>
         I am a backend developer who loves a challenge. I prefer working on new and upcoming
         technologies that tickle my fancy. I like to keep my code verbose and well-documented
@@ -31,15 +31,17 @@ export default function Name() {
         <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
           More about me
         </h1>
-        <li>I am an avid gamer</li>
-        <li>I am kind of into custom mechanical keyboards</li>
-        <li>I built my own computer</li>
-        <li>Preferred OS is linux</li>
-        <li>Learning Node with Typescript and Tailwind just for fun</li>
-        <li>Interested in learning Rust after Node</li>
-        <li>And i like pretty things</li>
+        <ul>
+          <li>I am an avid gamer</li>
+          <li>I am kind of into custom mechanical keyboards</li>
+          <li>I built my own computer</li>
+          <li>Preferred OS is linux</li>
+          <li>Learning Node with Typescript and Tailwind just for fun</li>
+          <li>Interested in learning Rust after Node</li>
+          <li>And i like pretty things</li>
+        </ul>
         <div className="py-4 pt-32">
-          <div className="w-24 border-t border-black dark:border-white" />
+          <div className="w-24 border-t border-secondary-color dark:border-primary-color" />
         </div>
         <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
           Connect with me
