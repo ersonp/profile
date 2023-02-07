@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouteError } from 'react-router-dom';
-import MainLayout from './layout/MainLayout';
+import MainLayout from '../layout/MainLayout';
 
 export default function ErrorPage() {
   const error = useRouteError();
