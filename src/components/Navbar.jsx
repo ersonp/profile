@@ -1,8 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Switcher from './Switcher';
 
 export default function Navbar() {
+  const location = useLocation(); // once ready it returns the 'window.location' object
+  const [url, setUrl] = useState(null);
+  useEffect(() => {
+    setUrl(location.pathname);
+  }, [location]);
   return (
     <nav className="container w-full max-w-7xl mx-auto pt-4 pl-4 pr-4 overflow-hidden flex">
       <Link to="/" className="flex items-center mr-4">
@@ -10,10 +15,10 @@ export default function Navbar() {
       </Link>
       <div className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
-          <Link to="/about" className="inline-block hover:underline decoration-4 mr-4">
+          <Link to="/about" className={`inline-block hover:underline decoration-4 mr-4 ${url === '/about' ? 'underline' : ''}`}>
             about
           </Link>
-          <Link to="/contact" className="inline-block hover:underline decoration-4 mr-4">
+          <Link to="/contact" className={`inline-block hover:underline decoration-4 mr-4 ${url === '/contact' ? 'underline' : ''}`}>
             contact
           </Link>
         </div>
