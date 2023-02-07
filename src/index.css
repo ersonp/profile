@@ -11,3 +11,7 @@
   --primary-color: #fff;
   --secondary-color: #000;
 }
+
+.title-font {
+  font-family: DMSerifDisplay, serif;
+}

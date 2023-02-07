@@ -9,10 +9,10 @@ export default function Navbar() {
       </a>
       <div className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
-          <a href="#responsive-header" className="inline-block hover:underline decoration-4 mr-4">
+          <a href="/about" className="inline-block hover:underline decoration-4 mr-4">
             about
           </a>
-          <a href="#responsive-header" className="inline-block hover:underline decoration-4 mr-4">
+          <a href="/contact" className="inline-block hover:underline decoration-4 mr-4">
             contact
           </a>
         </div>
