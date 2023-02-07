@@ -1,7 +1,7 @@
 import React from 'react';
-import './Name.css';
+import './Home.css';
 
-export default function Name() {
+export default function Home() {
   return (
     <div className="container w-full md:max-w-7xl mx-auto pb-16 pl-4 pr-4 max-w-md overflow-hidden pt-16">
       <div className="md:shrink-0">
