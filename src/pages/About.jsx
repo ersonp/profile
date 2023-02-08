@@ -1,5 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import MainLayout from '../layout/MainLayout';
+
+function AboutLayout({ prop }) {
+  return (
+    <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
+      {prop.title}
+    </h1>
+  );
+}
+
+AboutLayout.propTypes = { prop: PropTypes.node.isRequired };
 
 export default function About() {
   return (
@@ -101,6 +112,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <AboutLayout prop="one" />
       </div>
     </MainLayout>
   );
