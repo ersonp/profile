@@ -2,15 +2,91 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MainLayout from '../layout/MainLayout';
 
-function AboutLayout({ prop }) {
+function AboutLayout({ aboutInfo }) {
   return (
-    <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
-      {prop.title}
-    </h1>
+    <div>
+      <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
+        {aboutInfo.title}
+      </h1>
+      <div className="container w-full max-w-7xl mx-auto pt-1 overflow-hidden flex">
+        <div className="flex-grow flex w-auto flex-col md:flex-row flex-wrap list-none mb-4">
+          {aboutInfo.contents.map((e) => (
+            <div className="flex-grow pr-2 pb-2 break-normal w-72 ">
+              {e.title}
+              <div className="text-sm">
+                {e?.content}
+                <br />
+                {e?.date}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
 
-AboutLayout.propTypes = { prop: PropTypes.node.isRequired };
+const skills = {
+  title: 'Main skills',
+  contents: [
+    {
+      title: 'Backend, microservices',
+    },
+    {
+      title: 'P2P communication, Core Blockchain development',
+    },
+    {
+      title: 'Golang, Python, JavaScript, CSS, HTML, React, Shell Script',
+    },
+    {
+      title: 'Docker, Kubernetes, Go releaser, Travis CI, Github Actions',
+    },
+  ],
+};
+
+const experience = {
+  title: 'Experience',
+  contents: [
+    {
+      title: 'Go Developer',
+      content: '@ Skycoin',
+      date: '*current',
+    },
+    {
+      title: 'Software Developer',
+      content: '@ Chrisel Technolab',
+      date: '2019-2021',
+    },
+    {
+      title: 'Jr. Software Developer',
+      content: '@ Skycoin',
+      date: '*current',
+    },
+  ],
+};
+
+const languages = {
+  title: 'Languages',
+  contents: [
+    {
+      title: 'en-US English',
+    },
+  ],
+};
+
+const hobbies = {
+  title: 'Also busy with',
+  contents: [
+    {
+      title: 'Games',
+    },
+    {
+      title: 'Trying different cuisines',
+    },
+  ],
+};
+
+AboutLayout.propTypes = { aboutInfo: PropTypes.node.isRequired };
 
 export default function About() {
   return (
@@ -30,89 +106,14 @@ export default function About() {
           <div className="w-full border-t border-secondary-color dark:border-primary-color" />
         </div>
 
-        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
-          Main skills
-        </h1>
-        <div className="container w-full max-w-7xl mx-auto pt-1 overflow-hidden flex">
-          <div className="flex-grow flex w-auto flex-col md:flex-row flex-wrap list-none mb-4">
-            <div className="text-sm flex-grow pr-2 pb-2">
-              Backend, microservices
-            </div>
-            <div className="text-sm flex-grow pr-2 pb-2">
-              P2P communication,
-              <br />
-              Core Blockchain development
-            </div>
-            <div className="text-sm flex-grow pr-2 pb-2">
-              Golang, Python, JavaScript, CSS, HTML, React,
-              <br />
-              Shell Script
-            </div>
-            <div className="text-sm flex-grow pb-2">
-              Docker, Kubernetes, Go releaser, Travis CI,
-              <br />
-              Github Actions.
-            </div>
-          </div>
-        </div>
+        <AboutLayout aboutInfo={skills} />
 
-        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
-          Experience
-        </h1>
-        <div className="container w-full max-w-7xl mx-auto pt-1 overflow-hidden flex">
-          <div className="flex-grow flex w-auto flex-col md:flex-row flex-wrap list-none mb-4">
-            <div className="flex-grow pr-2 pb-2">
-              Go Developer
-              <div className="text-sm">
-                @ Skycoin
-                <br />
-                *current
-              </div>
-            </div>
-            <div className="flex-grow pr-2 pb-2">
-              Software Developer
-              <div className="text-sm">
-                @ Chrisel Technolab
-                <br />
-                *2019-2021
-              </div>
-            </div>
-            <div className="flex-grow pr-2 pb-2">
-              Jr. Software Developer
-              <div className="text-sm">
-                @ Dquip
-                <br />
-                *2018-2018
-              </div>
-            </div>
-          </div>
-        </div>
+        <AboutLayout aboutInfo={experience} />
 
-        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
-          Languages
-        </h1>
-        <div className="container w-full max-w-7xl mx-auto pt-1 overflow-hidden flex">
-          <div className="flex-grow flex w-auto flex-col md:flex-row flex-wrap list-none mb-4">
-            <div className="flex-grow pr-2 pb-2">
-              en-US English
-            </div>
-          </div>
-        </div>
+        <AboutLayout aboutInfo={hobbies} />
 
-        <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
-          Also busy with
-        </h1>
-        <div className="container w-full max-w-7xl mx-auto pt-1 overflow-hidden flex">
-          <div className="flex-grow flex w-auto flex-col md:flex-row flex-wrap list-none mb-4">
-            <div className="flex-grow pr-2 pb-2">
-              Games
-            </div>
-            <div className="flex-grow pr-2 pb-2">
-              Trying different cuisines
-            </div>
-          </div>
-        </div>
-        <AboutLayout prop="one" />
+        <AboutLayout aboutInfo={languages} />
+
       </div>
     </MainLayout>
   );
