@@ -6,4 +6,8 @@
     "javascript"
   ],
   "editor.formatOnSave": true,
+  "cSpell.words": [
+    "tailwindcss",
+    "truetype"
+  ],
 }
