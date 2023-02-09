@@ -14,7 +14,7 @@ export default function App() {
             </div>
           </h1>
           <div className="font-sans">
-            &nbsp;[air - sun pa - re - ra] &nbsp;&nbsp;
+            &nbsp;[air-sun pa-re-ra] &nbsp;&nbsp;
             <i className="font-serif"> noun </i>
           </div>
           <div className="py-4">
@@ -39,7 +39,7 @@ export default function App() {
             <li>Preferred OS is linux</li>
             <li>Learning Node with Typescript and Tailwind just for fun</li>
             <li>Interested in learning Rust after Node</li>
-            <li>And i like pretty things</li>
+            <li>And I like pretty things</li>
           </ul>
           <div className="py-4 pt-32">
             <div className="w-24 border-t border-secondary-color dark:border-primary-color" />
@@ -47,11 +47,14 @@ export default function App() {
           <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
             Connect with me
           </h1>
-          Email:&nbsp;ersonpereiracr7@gmail.com
+          Email:
+          <a href="mailto:ersonpereiracr7@gmail.com" target="_blank" className="inline-block hover:underline decoration-4 mr-4 pl-2" rel="noreferrer">
+            ersonpereiracr7@gmail.com
+          </a>
           <br />
           LinkedIn:
-          <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
-            &nbsp;ersonpereira
+          <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4 pl-2" rel="noreferrer">
+            ersonpereira
           </a>
 
         </div>
