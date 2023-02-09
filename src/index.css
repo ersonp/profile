@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DMSerifDisplay';
+  src: local('DMSerifDisplay'), url(./fonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf) format('truetype');
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+}
+
+.title-font {
+  font-family: DMSerifDisplay, serif;
+}
