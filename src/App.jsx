@@ -48,13 +48,13 @@ export default function App() {
             Connect with me
           </h1>
           Email:
-          <a href="mailto:ersonpereiracr7@gmail.com" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
-            &nbsp;ersonpereiracr7@gmail.com
+          <a href="mailto:ersonpereiracr7@gmail.com" target="_blank" className="inline-block hover:underline decoration-4 mr-4 pl-2" rel="noreferrer">
+            ersonpereiracr7@gmail.com
           </a>
           <br />
           LinkedIn:
-          <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
-            &nbsp;ersonpereira
+          <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4 pl-2" rel="noreferrer">
+            ersonpereira
           </a>
 
         </div>
