@@ -47,7 +47,10 @@ export default function App() {
           <h1 className="break-normal pt-6 pb-2 text-2xl title-font">
             Connect with me
           </h1>
-          Email:&nbsp;ersonpereiracr7@gmail.com
+          Email:
+          <a href="mailto:ersonpereiracr7@gmail.com" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
+            &nbsp;ersonpereiracr7@gmail.com
+          </a>
           <br />
           LinkedIn:
           <a href="https://www.linkedin.com/in/ersonpereira/" target="_blank" className="inline-block hover:underline decoration-4 mr-4" rel="noreferrer">
