@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="container w-full max-w-7xl mx-auto pt-4 pl-4 pr-4 overflow-hidden flex">
       <Link to="/" className="flex items-center mr-4">
-        <span className="font-bold text-xl tracking-tight fill-current text-primary-color dark:text-secondary-color bg-secondary-color dark:bg-primary-color pr-1 pl-1">EP</span>
+        <span className="font-bold text-xl tracking-tight fill-current text-primary-color dark:text-secondary-color bg-secondary-color dark:bg-primary-color pr-1 pl-1">.dev</span>
       </Link>
       <div className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
