@@ -33,7 +33,7 @@ const skills = {
       title: 'Backend, microservices',
     },
     {
-      title: 'P2P communication, Core Blockchain development',
+      title: 'P2P communication, Core Blockchain development, RPC and gRPC',
     },
     {
       title: 'Golang, Python, JavaScript, CSS, HTML, React, Shell Script',
@@ -81,7 +81,10 @@ const hobbies = {
       title: 'Games',
     },
     {
-      title: 'Trying different cuisines',
+      title: 'Anime and Manga',
+    },
+    {
+      title: 'Food',
     },
   ],
 };

@@ -14,7 +14,7 @@ export default function App() {
             </div>
           </h1>
           <div className="font-sans">
-            &nbsp;[air-sun pa-re-ra] &nbsp;&nbsp;
+            &nbsp;[air·sun puh·reuh·ruh] &nbsp;&nbsp;
             <i className="font-serif"> noun </i>
           </div>
           <div className="py-4">
@@ -33,9 +33,10 @@ export default function App() {
             More about me
           </h1>
           <ul>
-            <li>I am an avid gamer</li>
-            <li>I am kind of into custom mechanical keyboards</li>
-            <li>I built my own computer</li>
+            <li>An avid gamer</li>
+            <li>Kind of into custom mechanical keyboards</li>
+            <li>Built my own computer</li>
+            <li>I like to read Manga and watch Anime</li>
             <li>Preferred OS is linux</li>
             <li>Learning Node with Typescript and Tailwind just for fun</li>
             <li>Interested in learning Rust after Node</li>
