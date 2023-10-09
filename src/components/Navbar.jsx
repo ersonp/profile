@@ -16,10 +16,10 @@ export default function Navbar() {
       <div className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
           <Link to="/about" className={`inline-block hover:underline decoration-4 mr-4 ${url === '/about' ? 'underline' : ''}`}>
-            about
+            About
           </Link>
           <Link to="/contact" className={`inline-block hover:underline decoration-4 mr-4 ${url === '/contact' ? 'underline' : ''}`}>
-            contact
+            Contact
           </Link>
         </div>
       </div>

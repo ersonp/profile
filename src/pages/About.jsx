@@ -33,7 +33,7 @@ const skills = {
       title: 'Backend, microservices',
     },
     {
-      title: 'P2P communication, Core Blockchain development',
+      title: 'P2P communication, Core Blockchain development, RPC and gRPC',
     },
     {
       title: 'Golang, Python, JavaScript, CSS, HTML, React, Shell Script',
@@ -50,7 +50,7 @@ const experience = {
     {
       title: 'Go Developer',
       content: '@ Skycoin',
-      date: '*current',
+      date: '2021-2023',
     },
     {
       title: 'Software Developer',
@@ -60,7 +60,7 @@ const experience = {
     {
       title: 'Jr. Software Developer',
       content: '@ Dquip',
-      date: '2018-2018',
+      date: '2018',
     },
   ],
 };
@@ -81,7 +81,10 @@ const hobbies = {
       title: 'Games',
     },
     {
-      title: 'Trying different cuisines',
+      title: 'Anime and Manga',
+    },
+    {
+      title: 'Food',
     },
   ],
 };
