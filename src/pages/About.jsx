@@ -50,7 +50,7 @@ const experience = {
     {
       title: 'Go Developer',
       content: '@ Skycoin',
-      date: '2021-present',
+      date: '2021-2023',
     },
     {
       title: 'Software Developer',
